@@ -18,7 +18,7 @@ import AccordionUsers from './AccordionUsers';
 
 const App = () => {
   const navStyle = {
-    backgroundColor:'grey',
+    backgroundColor:'gray',
     color:'rgba(255, 255, 255, 1)',
     padding:'20px',
     textAlign:'right',
@@ -56,9 +56,9 @@ const App = () => {
           <NavLink to="/usercards" style={{marginRight:'10px',color:'white'}}>UserCards</NavLink>
           <NavLink to="/userlist" style={{marginRight:'10px',color:'white'}}>UserList</NavLink>
           <NavLink to="/profilecards" style={{marginRight:'10px',color:'white'}}>ProfileCards</NavLink>
-          <NavLink to="/accordionusers" style={{color:'white'}}>AccotdionUsers</NavLink>
+          <NavLink to="/accordionusers" style={{color:'white'}}>AccordionUsers</NavLink>
         </nav>
-        <hr />
+          <hr />
         <Routes>
           <Route path='/userstable' element={<UsersTable/>}/>
           <Route path='/usercards' element={<UserCards/>}/>
