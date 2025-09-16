@@ -32,19 +32,6 @@ const App = () => {
     color:'white'
     
   }
-  // const numbers = [1,2,3,4,5]
-  // 4. Passing Functions
-  // const handleGreet = (name)=> {
-  //   alert(`Hello,${name}!`)
-  // }
-
-  // 3. Passing Objects / Arrays
-  // const user = { name: "Lasya", city: "Hyderabad" };
-  // const skills = ["JS", "React", "Node"];
-  
-  // 2. Passing Variables
-  // const course = 'React'
-  // const duration = 3
    return (
 
     <>
@@ -68,18 +55,6 @@ const App = () => {
         </Routes>
       </div>
      </Router>
-     {/* <UsersTable/> */}
-     {/* <UserCards/> */}
-     {/* <UserList/> */}
-     {/* <ProfileCards/> */}
-     {/* <AccordionUsers/> */}
-
-      {/* <Useeffect/> */}
-      {/* {numbers.map((numbers) => (numbers*2))} */}
-      {/* <Child name = 'lasya' age = {22} isStudent={true}/> */}
-      {/* <Child1 course={course} duration={duration}/> */}
-      {/* <Child3 user={user} skills={skills} /> */}
-      {/* <Child4 onGreet={handleGreet}/> */}
 
     </>
    );
